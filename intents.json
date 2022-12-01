@@ -1,0 +1,123 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello! I'm Inflation Bot! How many I help you?", "Good to see you again! I'm Inflation bot, and I'm excited to be your friend!", "Hi there. I'm Inflation Bot! How may I help?"],
+    "context_set": ""
+  },
+  {"tag": "identity",
+    "patterns": ["Who are you", "what are you", "Who", "you"],
+    "responses": ["I'm InflationBot, a cool chatbot who can tell you jokes, riddles, and whatever you want to know about Inflation, unemployment, and the stock market!"]
+  },
+  {"tag": "programmer",
+    "patterns": ["Who made you", "who designed you", "who programmed you", "created", "programmed", "designed", "made"],
+    "responses": ["I was programmed by Harshith Nanda and Charith Muppidi, two amazing students at UT Dallas!"]
+
+  },
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "thx", "Thx"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"],
+    "context": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Cya later alligator! :)", "After a while crocodile! ;)"],
+    "context_set": ""
+  },
+  {"tag": "out-of-scope",
+    "patterns": ["", ""],
+    "responses": ["Sorry, I can't understand you. Perhaps this is off-topic?", "I don't understand. Maybe because that is off-topic"],
+    "context": ""
+  },
+  {"tag": "weather",
+    "patterns": ["weather", "what is the weather like today", "what's the temperature", "how hot is it outside", "how cold is it outside", "temperature", "hot", "cold", "climate"],
+    "responses": ["It's pretty chilly outside, might rain. Make sure to bring a jacket!"],
+    "context": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["how is the stock market doing", "which stocks have increased the most in value", "stocks"],
+    "responses": ["The stock market follows a cycle", "Most tech companies have seen a slight dip recently", "Healthcare company stocks are up compared to pre-pandemic"],
+    "context_set": ""
+  },
+  {"tag": "invest",
+    "patterns": ["invest", "what should I invest in", "are there any safe stocks to invest in"],
+    "responses": ["Invest in the S&P 500 index fund! It provides safe and reliable returns to investment."]
+  },
+  {"tag": "inflation-causes",
+    "patterns": ["why is there inflation", "what is causing inflation", "will we ever recover from inflation",
+      "which products are driving inflation", "why is inflation so high", "why is inflation so high"],
+    "responses": [
+      "Inflation has many causes! One such cause is a reduction in imports of gas, increasing gas prices, thereby increasing inflation!",
+      "According to the Federal Reserve, supply chain issues due to COVID lockdowns contributed to inflation by reducing manufacturing ouput!",
+      "The Economist states that excessive government spending from American Rescue Plan increased inflation by 1-2%!",
+      "Barriers to trade such as tariffs increase the price of imports, which raises prices domestically, leading to higher inflation",
+      "Inflation was exacerbated by the Ukraine war, which has lead to higher food and grain prices worldwide due to a drop in exports by Ukraine!",
+      "Inflation was exacerbated by the Ukraine war, which has led to higher gas prices worldwide due to an embargo against Russia preventing oil exports!",
+      "Inflation was worsened by price increased in used cars. This is due to a chip shortage, which slowed car manufacturing."
+    ],
+    "context_set": ""
+  },
+  {"tag": "inflation-responses",
+    "patterns": ["Is there anything being done to stop inflation", "who is responsible for handling inflation?",
+      "has the government done anything about inflation?", "has federal reserve done anything about inflation"],
+    "responses": ["Yes! The federal reserve has raised interest rates by over 200 points thus far, which will reduce inflation!",
+      "President Biden ordered the release of oil from strategic reserves to reduce the price of gas, thus reducing inflation!",
+      "The Inflation Reduction Act reduces the deficit, which will marginally reduce inflation!"],
+    "context_set": ""
+  },
+  {"tag": "possible-inflation-responses",
+    "patterns": ["what can we do to stop inflation", "what do experts recommend we do to reduce inflation", "how can we reduce inflation",
+      "is there anything we can do to reduce inflation?"],
+    "responses": ["Experts recommend we reduce tariffs to make imports cheaper and reduce inflation", "The FOMC recommends further increases in interest rates to reduce inflation",
+      "Economists recommended that we raise taxes and cut spending to reduce the national debt and reduce inflation",
+      "Experts recommend that we invest in building more housing to alleviate the housing shortage and reduce rents, thereby reducing inflation"],
+    "context_set": ""
+  },
+  {"tag": "unemployment",
+    "patterns": ["Which state has the lowest unemployment rate?", "What is the unemployment rate"],
+    "responses": ["As of September 2022, Minnesota has the lowest unemployment rate at 2%",
+      "As of September 2022, Illinois has the highest unemployment rate at 4.5%",
+      "The average unemployment rate for the USA is 3.5% as of September 2022, which is below pre-pandemic levels!",
+      "Goldman Sachs estimates that unemployment is decreasing steadily",
+      "JP Morgan expects unemployment to reach its lowest point in 2023!"],
+    "context_set": ""
+  },
+  {"tag": "Biden",
+    "patterns": ["What has Biden done to improve the economy", "Has the Biden administration taken any action?",
+      "Has Biden done anything to reduce inflation?", "Biden combat inflation", "Biden", "biden"],
+    "responses": ["President Biden ordered the release of oil from strategic reserves to reduce the price of gas, thus reducing inflation!",
+      "President Biden passed the Inflation Reduction Act reduces the deficit, which will marginally reduce inflation!",
+      "President Biden passed the Inflation Reduction Act provides clean energy tax credits to improve long term resilience to climate change and reduce energy prices!",
+      "President Biden passed the Inflation reduction Act includes healthcare subsidies to reduce the amount people pay for health insurance, which helps them handle inflation better",
+      "President Biden wants to reduce food prices by providing farmers with resources to increase food production"],
+    "context_set": ""
+  },
+  {"tag": "jokes",
+    "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+    "responses": ["A perfectionist walked into a bar. Apparently, the bar wasn't set high enough! Hahaha.",
+      "I ate a clock yesterday, it was very time-consuming",
+      "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+      "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+      "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+      "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+      "What do you call a snowman with a suntan? A puddle.",
+      "How does a penguin build a house? Igloos it together",
+      "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+      "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+      "Eh its okay if I don't know what 'Armageddon' means? It's not the end of the world."],
+    "context": "jokes"
+  },
+  {"tag": "riddle",
+    "patterns": ["Ask me a riddle", "Ask me a question", "Riddle", "Tell me a Riddle", "Riddle me"],
+    "responses": ["What two things can you never eat for breakfast?.....Lunch and Dinner!",
+      "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+      "How can a girl go 25 days without sleep?.....She sleeps and night!",
+      "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+      "What will you actually find at the end of every rainbow?.....The letter 'w'",
+      "What can be caught but never thrown?.....A cold!",
+      "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+      "What 5-letter word becomes shorter when you add two letters to it?.....Short",
+      "Why can't a bike stand on it's own?.....It is two-tired."],
+    "context": "riddles"
+  }
+]
+}
